@@ -1,0 +1,5 @@
+{
+    "type": "entity",
+    "mixins": "stonehearth:carpenter:talisman"
+
+}

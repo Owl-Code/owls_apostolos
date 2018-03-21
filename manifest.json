@@ -5,32 +5,44 @@
     },
     "default_locale": "en",
     "aliases": {
-        "biome:jungle": "file(data/biome/jungle.json)",
-
         "camp_standard": "file(entities/gizmos/camp_standard)",
 
-        "jobs:index": "file(jobs/jobs_index.json)",
-        "jobs:thatcher": "file(jobs/thatcher/thatcher_description.josn)",
-        "jobs:thatcher:talisman": "file(jobs/thatcher/thatcher_sickle/thatcher_talisman.json)",
-        "jobs:thatcher:sickle": "file(jobs/thatcher/thatcher_sickle)",
+        "index:jobs": "file(jobs/index.json)",
+
+        "jobs:blacksmith": "file(jobs/blacksmith/blacksmith_description.json)",
+        "jobs:bowman": "file(jobs/bowman/bowman_description.json)",
+        "jobs:carpenter": "file(jobs/carpenter/carpenter_description.json)",
+        "jobs:clay_shaper": "file(jobs/clay_shaper/clay_shaper_description.json)",
+        "jobs:farmer": "file(jobs/farmer/farmer_description.json)",
+        "jobs:fire_starter": "file(jobs/fire_starter/fire_starter_description.json)",
+
+        "jobs:fledgling": "file(jobs/fledgling/fledgling_description.json)",
+        "jobs:fledgling:outfit": "file(jobs/fledgling/fledgling_outfit)",
+        "jobs:herder": "file(jobs/herder/herder_description.json)",
+        "jobs:hunter": "file(jobs/hunter/hunter_description.json)",
+        "jobs:knapper": "file(jobs/knapper/knapper_description.json)",
+        "jobs:rock_thrower": "file(jobs/rock_thrower/rock_thrower_description.json)",
+        "jobs:shaman": "file(jobs/shaman/shaman_description.json)",
+
+        "jobs:thatcher": "file(jobs/thatcher/thatcher_description.json)",
         "jobs:thatcher:outfit": "file(jobs/thatcher/thatcher_outfit)",
+        "jobs:thatcher:sickle": "file(jobs/thatcher/thatcher_sickle)",
+        "jobs:thatcher:talisman": "file(jobs/thatcher/thatcher_sickle/thatcher_sickle_talisman.json)",
 
-        "kingdom:owls_apostolos": "file(services/server/population/data/owls_apostolos)",
-
+        "jobs:warrior": "file(jobs/warrior/warrior_description.json)",
+        "jobs:weaver": "file(jobs/weaver/weaver_description.json)",
+        "jobs:welp": "file(jobs/welp/welp_description.json)",
+        "jobs:witch_doctor": "file(jobs/witch_doctor/witch_doctor_description.json)",
+        "kingdoms:owls_apostolos": "file(services/server/population/data/owls_apostolos_population.json)",
         "resources:thatch:thatch_bundle": "file(entities/resources/thatch/thatch_bundle)"
-
     },
     "components": {},
     "mixintos": {
-        "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
-
-        "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
-
-        "stonehearth:biome:index": "file(data/biome/index.json)",
-
-        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
+        "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)"
     },
     "overrides": {},
-    "controllers": {},
+    "controllers": {
+        "class:fledgling": "file(jobs/fledgling/fledgling.lua)"
+    },
     "ui": {}
 }

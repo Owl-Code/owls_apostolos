@@ -9,11 +9,11 @@
     "image": "/owls_apostolos/data/kingdoms/images/owls_apostolos_400x300.png",
     "story_board_image": "/owls_apostolos/data/kingdoms/images/story_board_image.png",
     "starting_talisman": "owls_apostolos:jobs:thatcher:talisman",
-    "starting_resource": "owls_apostolos:resources:thatch:thatch_bundle",
-    "job_index": "owls_apostolos:jobs:index",
+    "starting_resource": "stonehearth:resources:wood:oak_log",
+    "job_index": "owls_apostolos:index:jobs",
     "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
     "initial_town_name": "i18n(owls_apostolos:data.population.owls_apostolos.initial_town_name)",
-    "camp_standard": "owls_apostolos:camp_standard",
+    "camp_standard": "stonehearth:camp_standard",
     "roles": {
         "default": {
             "male": {
@@ -23,7 +23,9 @@
                "stonehearth:male_2",
                "stonehearth:male_3"
             ],
-                "given_names": ['John']
+                "given_names": [
+               "John"
+            ]
             },
             "female": {
                 "uri": [
@@ -32,37 +34,51 @@
                "stonehearth:female_2",
                "stonehearth:female_3"
             ],
-                "given_names": ['Jane']
+                "given_names": [
+               "Jane"
+            ]
             },
-            "surnames": ['Doe'],
+            "surnames": [
+            "Doe"
+         ],
             "attribute_distribution": {
                 "allocated_points": {
                     "min": 4,
-                    "max": 9
+                    "max": 8
                 },
                 "point_limits": {
                     "mind": {
                         "min": 1,
-                        "max": 7
+                        "max": 6
                     },
                     "body": {
                         "min": 1,
-                        "max": 7
+                        "max": 6
                     },
                     "spirit": {
                         "min": 2,
-                        "max": 7
+                        "max": 6
                     }
                 }
             }
         }
     },
     "pet_names": {
-        "default": ["animal"],
-        "racoon": [],
-        "red_fox_wolf": [],
-        "rabbit": [],
-        "squirrel": [],
+        "default": [
+         "animal"
+      ],
+        "racoon": [
+         "racoon"
+      ],
+        "red_fox_wolf": [
+         "red_fox_wolf"
+      ],
+        "rabbit": [
+         "rabbit"
+      ],
+        "squirrel": [
+         "squirrel"
+      ],
         "beetle": [
          "beetle"
       ],
@@ -74,10 +90,9 @@
       ]
     },
     "town_pieces": {
-        "optional_prefix": [],
-        "town_name": [
-      ],
-        "suffix": []
+        "optional_prefix": ["the"],
+        "town_name": ["town"],
+        "suffix": [""]
     },
     "task_groups": "stonehearth:data:player_task_groups"
 }

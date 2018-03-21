@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:archer",
+    "enabled": true,
+    "display_order": 1,
+    "alias": "stonehearth:jobs:archer",
+    "parent_job": "owls_apostolos:jobs:rock_thrower",
+    "parent_level_requirement": 3
+}

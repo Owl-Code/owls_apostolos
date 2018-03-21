@@ -1,0 +1,57 @@
+{
+    "jobs": {
+        "owls_apostolos:jobs:thatcher": {
+            "description": "owls_apostolos:jobs:thatcher"
+        },
+        "owls_apostolos:jobs:bowman": {
+            "description": "owls_apostolos:jobs:bowman"
+        },
+        "owls_apostolos:jobs:rock_thrower": {
+            "description": "owls_apostolos:jobs:rock_thrower"
+        },
+        "owls_apostolos:jobs:blacksmith": {
+            "description": "owls_apostolos:jobs:blacksmith"
+        },
+        "owls_apostolos:jobs:carpenter": {
+            "description": "owls_apostolos:jobs:carpenter"
+        },
+        "owls_apostolos:jobs:witch_doctor": {
+            "description": "owls_apostolos:jobs:witch_doctor"
+        },
+        "owls_apostolos:jobs:fire_starter": {
+            "description": "owls_apostolos:jobs:fire_starter"
+        },
+        "owls_apostolos:jobs:farmer": {
+            "description": "owls_apostolos:jobs:farmer"
+        },
+        "owls_apostolos:jobs:welp": {
+            "description": "owls_apostolos:jobs:welp"
+        },
+        "owls_apostolos:jobs:shaman": {
+            "description": "owls_apostolos:jobs:shaman"
+        },
+        "owls_apostolos:jobs:warrior": {
+            "description": "owls_apostolos:jobs:warrior"
+        },
+        "owls_apostolos:jobs:knapper": {
+            "description": "owls_apostolos:jobs:knapper"
+        },
+        "owls_apostolos:jobs:clay_shaper": {
+            "description": "owls_apostolos:jobs:clay_shaper"
+        },
+        "owls_apostolos:jobs:herder": {
+            "description": "owls_apostolos:jobs:herder"
+        },
+        "owls_apostolos:jobs:hunter": {
+            "description": "owls_apostolos:jobs:hunter"
+        },
+        "owls_apostolos:jobs:weaver": {
+            "description": "owls_apostolos:jobs:weaver"
+        },
+        "stonehearth:jobs:worker": {
+            "description": "owls_apostolos:jobs:fledgling"
+        }
+
+
+    }
+}

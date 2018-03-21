@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:mason",
+    "enabled": true,
+    "display_order": 1,
+    "alias": "owls_apostolos:jobs:knapper",
+    "parent_job": "owls_apostolos:jobs:clay_shaper",
+    "parent_level_requirement": 3
+}

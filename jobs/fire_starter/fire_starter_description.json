@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:cook",
+    "enabled": true,
+    "display_order": 1,
+    "alias": "owls_apostolos:jobs:fire_starter",
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 1
+}

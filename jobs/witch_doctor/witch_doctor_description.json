@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:herbalist",
+    "enabled": true,
+    "display_order": 7,
+    "alias": "owls_apostolos:jobs:witch_doctor",
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 3
+}

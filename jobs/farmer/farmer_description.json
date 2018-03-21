@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:farmer",
+    "enabled": true,
+    "display_order": 1,
+    "alias": "owls_apostolos:jobs:farmer",
+    "parent_job": "owls_apostolos:jobs:hunter",
+    "parent_level_requirement": 3
+}

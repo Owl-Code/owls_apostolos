@@ -1,0 +1,10 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:weaver",
+    "enabled": true,
+    "display_order": 3,
+    "alias": "owls_apostolos:jobs:weaver",
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 3,
+
+}

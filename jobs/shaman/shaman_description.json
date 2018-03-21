@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:cleric",
+    "enabled": true,
+    "display_order": 1,
+    "alias": "owls_apostolos:jobs:shaman",
+    "parent_job": "owls_apostolos:jobs:witch_doctor",
+    "parent_level_requirement": 3
+}

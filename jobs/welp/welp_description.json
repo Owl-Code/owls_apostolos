@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:footman",
+    "enabled": true,
+    "display_order": 8,
+    "alias": "owls_apostolos:jobs:welp",
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 3
+}

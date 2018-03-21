@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:carpenter",
+    "enabled": false,
+    "display_order": 3,
+    "alias": "stonehearth:jobs:carpenter",
+    "parent_job": "owls_apostolos:jobs:thatcher",
+    "parent_level_requirement": 6
+}

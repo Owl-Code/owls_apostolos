@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:potter",
+    "enabled": true,
+    "display_order": 5,
+    "alias": "stonehearth:jobs:potter",
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 2
+}

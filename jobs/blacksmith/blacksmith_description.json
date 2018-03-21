@@ -1,0 +1,9 @@
+{
+    "type": "job",
+    "mixins": "stonehearth:jobs:blacksmith",
+    "enabled": false,
+    "display_order": 6,
+    "alias": "owls_apostolos:jobs:blacksmith",
+    "parent_job": "stonehearth:jobs:worker",
+    "parent_level_requirement": 3
+}
