@@ -17,8 +17,8 @@ A list of things that Owl-Code is thinking about
     
 ### Add new kingdom
     
-        1. ~~ Tribal people? ~~ Yes
-            1a. ~~ Add new job index for kingdom ~~
+     x  1. Tribal people?  Yes
+     x      1a.  Add new job index for kingdom 
                 - Add new "builder" class(Thatcher) for kingdom
                 - Fledling(worker)
                     - Fire Starter -------------- (cook)                    
