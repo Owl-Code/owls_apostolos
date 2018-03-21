@@ -1,0 +1,83 @@
+{
+    "type": "kingdom",
+    "display_name": "i18n(owls_apostolos:data.population.owls_apostolos.display_name)",
+    "kingdom_id": "owls_apostolos",
+    "favored_biome": "owls_apostolos:biome:jungle",
+    "quote": "i18n(owls_apostolos:data.population.owls_apostolos.quote)",
+    "description": "i18n(owls_apostolos:data.population.owls_apostolos.description)",
+    "post_selection_description": "i18n(owls_apostolos:data.population.owls_apostolos.post_selection_description)",
+    "image": "/owls_apostolos/data/kingdoms/images/owls_apostolos_400x300.png",
+    "story_board_image": "/owls_apostolos/data/kingdoms/images/story_board_image.png",
+    "starting_talisman": "owls_apostolos:jobs:thatcher:talisman",
+    "starting_resource": "owls_apostolos:resources:thatch:thatch_bundle",
+    "job_index": "owls_apostolos:jobs:index",
+    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
+    "initial_town_name": "i18n(owls_apostolos:data.population.owls_apostolos.initial_town_name)",
+    "camp_standard": "owls_apostolos:camp_standard",
+    "roles": {
+        "default": {
+            "male": {
+                "uri": [
+               "stonehearth:male_1",
+               "stonehearth:male_1",
+               "stonehearth:male_2",
+               "stonehearth:male_3"
+            ],
+                "given_names": ['John']
+            },
+            "female": {
+                "uri": [
+               "stonehearth:female_1",
+               "stonehearth:female_1",
+               "stonehearth:female_2",
+               "stonehearth:female_3"
+            ],
+                "given_names": ['Jane']
+            },
+            "surnames": ['Doe'],
+            "attribute_distribution": {
+                "allocated_points": {
+                    "min": 4,
+                    "max": 9
+                },
+                "point_limits": {
+                    "mind": {
+                        "min": 1,
+                        "max": 7
+                    },
+                    "body": {
+                        "min": 1,
+                        "max": 7
+                    },
+                    "spirit": {
+                        "min": 2,
+                        "max": 7
+                    }
+                }
+            }
+        }
+    },
+    "pet_names": {
+        "default": ["animal"],
+        "racoon": [],
+        "red_fox_wolf": [],
+        "rabbit": [],
+        "squirrel": [],
+        "beetle": [
+         "beetle"
+      ],
+        "bitsy_ant": [
+         "bitsy_ant"
+      ],
+        "doodles": [
+         "doodles"
+      ]
+    },
+    "town_pieces": {
+        "optional_prefix": [],
+        "town_name": [
+      ],
+        "suffix": []
+    },
+    "task_groups": "stonehearth:data:player_task_groups"
+}

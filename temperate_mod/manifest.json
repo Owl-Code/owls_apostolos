@@ -1,0 +1,13 @@
+{
+    "info": {
+        "name": "temperate_mod",
+        "version": 3
+    },
+    "default_locale": "en",
+    "aliases": {},
+    "mixintos": {
+
+        "/stonehearth/data/biome/temperate_generation.json": "file(data/biome/temperate_generation.json)"
+    },
+    "overrides": {}
+}

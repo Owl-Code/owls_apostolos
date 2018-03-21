@@ -7,7 +7,17 @@
     "aliases": {
         "biome:jungle": "file(data/biome/jungle.json)",
 
+        "camp_standard": "file(entities/gizmos/camp_standard)",
+
+        "jobs:index": "file(jobs/jobs_index.json)",
+        "jobs:thatcher": "file(jobs/thatcher/thatcher_description.josn)",
+        "jobs:thatcher:talisman": "file(jobs/thatcher/thatcher_sickle/thatcher_talisman.json)",
+        "jobs:thatcher:sickle": "file(jobs/thatcher/thatcher_sickle)",
+        "jobs:thatcher:outfit": "file(jobs/thatcher/thatcher_outfit)",
+
         "kingdom:owls_apostolos": "file(services/server/population/data/owls_apostolos)",
+
+        "resources:thatch:thatch_bundle": "file(entities/resources/thatch/thatch_bundle)"
 
     },
     "components": {},
