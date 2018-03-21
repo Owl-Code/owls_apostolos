@@ -1,0 +1,26 @@
+{
+    "info": {
+        "name": "owls_apostolos",
+        "version": 3
+    },
+    "default_locale": "en",
+    "aliases": {
+        "biome:jungle": "file(data/biome/jungle.json)",
+
+        "kingdom:owls_apostolos": "file(services/server/population/data/owls_apostolos)",
+
+    },
+    "components": {},
+    "mixintos": {
+        "stonehearth:data:sound_constants": "file(data/sounds/sound_constants.json)",
+
+        "stonehearth:playable_kingdom_index": "file(data/kingdoms/playable_kingdom_index.json)",
+
+        "stonehearth:biome:index": "file(data/biome/index.json)",
+
+        "/stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)"
+    },
+    "overrides": {},
+    "controllers": {},
+    "ui": {}
+}
