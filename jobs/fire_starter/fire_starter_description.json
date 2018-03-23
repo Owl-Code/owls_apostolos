@@ -1,9 +1,62 @@
 {
     "type": "job",
-    "mixins": "stonehearth:jobs:cook",
     "enabled": true,
     "display_order": 1,
     "alias": "owls_apostolos:jobs:fire_starter",
     "parent_job": "stonehearth:jobs:worker",
-    "parent_level_requirement": 1
+    "parent_level_requirement": 1,
+    "job_id": "fire_starter",
+    "display_name": "i18n(owls_apostolos:jobs.fire_starter.fire_starter_description.display_name)",
+    "controller": "owls_apostolos:class:fire_starter",
+    "description": "i18n(owls_apostolos:jobs.fire_starter.fire_starter_description.description)",
+    "requirements": "i18n(owls_apostolos:jobs.fire_starter.fire_starter_description.requirements)",
+    "talisman_uri": "owls_apostolos:jobs:fire_starter:talisman",
+    "default_stance": "passive",
+    "promotion_activity_name": "promote_fire_starter",
+    "abilities": "file(fire_starter_abilities)",
+    "equipment": {
+        "torso": "file(fire_starter_outfit)",
+        "mainhand": "owls_apostolos:jobs:fire_starter:steel",
+        "offhand": "owls_apostolos:jobs:fire_starter:flint"
+    },
+    "roles": "fire_starter_job crafter",
+    "icon": "file(images/icon.png)",
+    "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:harvest",
+      "stonehearth:task_groups:crafting",
+      "stonehearth:task_groups:town_alert"
+   ],
+    "crafter": {
+        "work_effect": "fiddle",
+        "recipe_list": "/owls_apostolos/jobs/fire_starter/recipes/recipes.json"
+    },
+    "workshop": {
+        "portrait": "file(./images/workshop_portrait_level_1.png)",
+        "workbench_type": "owls_apostolos:fire_starter:workbench",
+        "skin_class": "fire_starter",
+        "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+        "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+    },
+    "xp_rewards": {
+        "craft_level_0": 27,
+        "craft_level_1": 28,
+        "craft_level_2": 29,
+        "craft_level_3": 30,
+        "craft_level_4": 31,
+        "craft_level_5": 32,
+        "craft_level_6": 33
+    },
+    "max_level": 6,
+    "level_data": {
+        "1": {},
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    }
 }

@@ -5,7 +5,7 @@
     },
     "default_locale": "en",
     "aliases": {
-        "camp_standard": "file(entities/gizmos/camp_standard)",
+        "camp_totem": "file(entities/gizmos/camp_totem)",
 
         "index:jobs": "file(jobs/index.json)",
 
@@ -14,7 +14,16 @@
         "jobs:carpenter": "file(jobs/carpenter/carpenter_description.json)",
         "jobs:clay_shaper": "file(jobs/clay_shaper/clay_shaper_description.json)",
         "jobs:farmer": "file(jobs/farmer/farmer_description.json)",
+
+
         "jobs:fire_starter": "file(jobs/fire_starter/fire_starter_description.json)",
+        "jobs:fire_starter:outfit": "file(jobs/fire_starter/fire_starter_outfit)",
+        "jobs:fire_starter:flint": "file(jobs/fire_starter/fire_starter_fire_starter/flint)",
+        "jobs:fire_starter:steel": "file(jobs/fire_starter/fire_starter_fire_starter/steel)",
+        "jobs:fire_starter:talisman": "file(jobs/fire_starter/fire_starter_fire_starter/fire_starter_fire_starter_talisman.json)",
+        "jobs:fire_starter:workbench": "file(jobs/fire_starter/fire_starter_workbench)",
+        "jobs:fire_starter:spit": "file(jobs/fire_starter/fire_starter_spit)",
+
 
         "jobs:fledgling": "file(jobs/fledgling/fledgling_description.json)",
         "jobs:fledgling:outfit": "file(jobs/fledgling/fledgling_outfit)",
@@ -50,7 +59,8 @@
     },
     "controllers": {
         "class:fledgling": "file(jobs/fledgling/fledgling.lua)",
-        "class:thatcher": "file(jobs/thatcher/thatcher.lua)"
+        "class:thatcher": "file(jobs/thatcher/thatcher.lua)",
+        "class:fire_starter": "file(jobs/fire_starter/fire_starter.lua)"
     },
     "ui": {}
 }

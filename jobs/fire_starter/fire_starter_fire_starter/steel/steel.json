@@ -1,0 +1,40 @@
+{
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(firestarter_steel.qb)"
+            ]
+            }
+        },
+        "stonehearth:equipment_piece": {
+            "slot": "mainhand",
+            "render_type": "attach_to_bone",
+            "postures": [
+            "stonehearth:combat",
+                "stonehearth:work"
+         ]
+        }
+    },
+    "entity_data": {
+        "stonehearth:combat:weapon_data": {
+            "base_damage": 4,
+            "reach": 0.75
+        },
+        "stonehearth:combat:melee_attacks": [
+            {
+                "name": "combat_1h_forehand",
+                "effect": "combat_1h_forehand",
+                "active_frame": 16,
+                "cooldown": 0,
+                "priority": 0
+         }
+      ],
+        "stonehearth:catalog": {
+            "display_name": "i18n(owls_apostolos:entities.tools.steel.display_name)",
+            "description": "i18n(owls_apostolos:entities.tools.steel.description)",
+            "icon": "file(steel.png)"
+        }
+    }
+}

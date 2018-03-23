@@ -1,0 +1,21 @@
+{
+    "type": "recipe",
+    "effort": 10,
+    "work_units": 5,
+    "recipe_name": "i18n(owls_apostolos:jobs.fire_starter.recipes.fire_starter_workbench_recipe.recipe_name)",
+    "description": "i18n(owls_apostolos:jobs.fire_starter.recipes.fire_starter_workbench_recipe.description)",
+    "flavor": "i18n(owls_apostolos:jobs.fire_starter.recipes.fire_starter_workbench_recipe.flavor)",
+    "portrait": "/owls_apostolos/jobs/fire_starter/fire_starter_workbench/fire_starter_workbench.png",
+    "work_effect": "work",
+    "ingredients": [
+        {
+            "material": "wood resource",
+            "count": 1
+      }
+   ],
+    "produces": [
+        {
+            "item": "owls_apostolos:jobs:fire_starter:spit"
+      }
+   ]
+}

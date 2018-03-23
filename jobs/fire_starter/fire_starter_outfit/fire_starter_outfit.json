@@ -1,0 +1,33 @@
+{
+    "type": "entity",
+    "mixins": "stonehearth:mixins:item_properties",
+    "components": {
+        "render_info": {},
+        "model_variants": {
+            "default": {
+                "layer": "clothing",
+                "models": [
+               "file(fire_starter_outfit.qb)"
+            ]
+            },
+            "female": {
+                "layer": "clothing",
+                "transparent": false,
+                "models": [
+               "file(fire_starter_outfit_female.qb)"
+            ]
+            }
+        },
+        "stonehearth:equipment_piece": {
+            "slot": "torso",
+            "render_type": "merge_with_model"
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(owls_apostolos:jobs.fire_starter.fire_starter_outfit.display_name)",
+            "description": "i18n(owls_apostolos:jobs.fire_starter.fire_starter_outfit.description)",
+            "icon": "file(fire_starter_outfit.png)"
+        }
+    }
+}

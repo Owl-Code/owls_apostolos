@@ -14,34 +14,57 @@ ________________________________________________________________________________
 A list of things that Owl-Code is thinking about
 
     -Think about enchanter at future date
-    
+
+#### template for class
+
+                    
+                - /new_class 
+                    - new_class_description.json
+                    - new_class_class.lua
+                    - /images
+                        - icon.png
+                        - talisman_name.png
+                        - job_menu_icon.png
+                    - /new_class_abilites
+                        abilities.json
+                    - /new_class_outfit
+                        - new_class_outfit.json
+                        - new_class_outfit_male.qb
+                        - new_class_outfit_female.qb
+                        - hat(optional)
+                    - /new_class_tool_name
+                        - tool_name_equipped.qb
+                        - tool_name.qb
+                        - tool_name_iconic.qb
+                        - new_class_tool_name_iconic.json
+                        - new_class_tool_name_talisman.json
+                        - new_class_tool_name.json
+                    - /new_class_workbench(crafter)
+                        - new_class_workbench.json
+                        - new_class_workbench_ghost.json
+                        - new_class_workbench_iconic.json
+                        - new_class_workbench.qb
+                        - new_class_workbench_iconic.qb
+                    - /skin(crafter)
+                        - Blanket.png
+                        - skin.png
+                        - tool_name.png
+                        - workshop.less
+                    - /recipes(crafter)
+                        recipes.json
+                    
+
 ### Add new kingdom
     
      x  1. Tribal people?  Yes
      x      1a.  Add new job index for kingdom 
-                
-                - new class template for kingdom
-                    - description
-                    - class
-                    - images
-                        - icon.png
-                        - talisman_name.png
-                        - job_menu_icon.png
-                    - abilites
-                    - outfit
-                        - hat(optional)
-                    - talisman
-                    - workbench(crafter)
-                    - less(crafter)
-                    - recipes(crafter)
-                    
-                - Fledling(worker)
-                    - Fire Starter -------------- (cook)                    
+            x    - Fledling(worker)
+            x       - Fire Starter -------------- (cook)                    
                     - Hunter -------------------- (trapper)
                         - Farmer ---------------- [(lock behind progression)]
                         - Herder ---------------- (shepherd)
                     - Weaver -------------------- [(lock tools behind other job)]
-                    - Thatcher
+            x       - Thatcher
                         - Carpenter ------------- [(lock behind quest progression)]
                     - Clay Shaper --------------- (potter)
                         - Knapper --------------- (mason)
@@ -54,34 +77,44 @@ A list of things that Owl-Code is thinking about
                         - Rock Thrower
                             - Bowman ------------ (archer)
                     
-            1b. Add Story for new kingdom
+            1b. Add Assets for New jobs
+                - Fledgling
+                
+                - Fire Starter
+                
+                - Thatcher 
+                
+                - Clay Shaper
+                
+                - Knapper
+                
+                - Weaver
+                
+                - Witch Doctor
+
+                - Shaman
+
+                - Hunter
+                
+                - Herder
+                
+                - Farmer
+
+                - Welp
+                
+                - Warrior
+                
+                - Rock Thrower
+                
+                - Bowman
+
+            1c. Add Story for new kingdom
                 - Progression?
                     - Band
                     - Tribe
                     - Cheifdom
                     - Kings
                     
-            1c. Add new outfits for kingdom
-                - Basic kingdom outfit
-
-                - Fire Starter
-                - Thatcher outfit
-                - Clay Shaper
-                - Knapper
-                - Weaver
-                - Witch Doctor
-
-                - Shaman
-
-                - Hunter
-                - Herder
-                - Farmer
-
-                - Welp
-                - Warrior
-                - Rock Thrower
-                - Bowman
-
 
                 
             
