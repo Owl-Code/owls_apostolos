@@ -3,8 +3,37 @@ This Mod is created to allow you to play a more "primitive" people.
 _____________________________________________________________________________________
 
 
-## update_log
-owls_apostolos v.0.0:pre-planning
+## change_log(soon move to CHANGES.md)
+
+#### owls_apostolos v.0.2.1: Jobs Update No. 1
+
+    - Added Job folder structure to read me
+    - Added Fire Starter
+
+    ## need to do
+    - fix fire_starter outfit(female)
+    - fix thatcher outfit(female)
+    (will probably be update in asset fix(0.3)
+
+#### owls_apostolos v.0.2: Jobs Update No. 0
+
+    - Added names to population.json
+    - Added Fledgling
+            - Replaces worker class
+            - Can level up to 3 from mining placing items and harvesting.
+
+    - Added Thatcher
+            - Precursor to carpenter
+            - no recipes yet
+
+#### owls_apostolos v.0.1:Kingdom and Index
+
+    - Updated file structure
+    - Updated Readme
+    - Implement Unfinished basic kingdom
+    - Re-ordered Jobs index
+    
+#### owls_apostolos v.0.0:pre-planning
     
     - Added possible section from other project, to-do
     - Create manifest
