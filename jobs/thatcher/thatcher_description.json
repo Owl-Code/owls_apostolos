@@ -1,9 +1,70 @@
 {
     "type": "job",
-    "mixins": "stonehearth:jobs:carpenter",
     "enabled": true,
+    "job_id": "thatcher",
     "display_order": 4,
     "alias": "owls_apostolos:jobs:thatcher",
+    "display_name": "i18n(owls_apostolos:jobs.thatcher.thatcher_description.display_name)",
+    "controller": "owls_apostolos:class:thatcher",
+    "description": "i18n(owls_apostolos:jobs.thatcher.thatcher_description.description)",
+    "requirements": "i18n(owls_apostolos:jobs.thatcher.thatcher_description.requirements)",
+    "abilities": "file(thatcher_abilities)",
+    "equipment": {
+        "torso": "file(thatcher_outfit)",
+        "mainhand": "owls_apostolos:jobs:thatcher:sickle"
+    },
+    "roles": "owls_apostolos_job crafter",
+    "talisman_uri": "owls_apostolos:jobs:thatcher:talisman",
+    "default_stance": "passive",
+    "icon": "file(images/icon.png)",
+    "promotion_activity_name": "promote_thatcher",
+    "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:placement",
+      "stonehearth:task_groups:build",
+      "stonehearth:task_groups:rescue",
+      "stonehearth:task_groups:crafting",
+      "stonehearth:task_groups:town_alert"
+   ],
+    "crafter": {
+        "work_effect": "mine",
+        "recipe_list": "/owls_apostolos/jobs/thatcher/recipes/recipes.json"
+    },
+    "workshop": {
+        "portrait": "file(./images/workshop_portrait_level_1.png)",
+        "workbench_type": "owls_apostolos:jobs:thatcher:workbench",
+        "skin_class": "thatcher",
+        "open_sound": "stonehearth:sounds:ui:carpenter_menu:menu_open",
+        "close_sound": "stonehearth:sounds:ui:carpenter_menu:menu_closed"
+    },
     "parent_job": "stonehearth:jobs:worker",
-    "parent_level_requirement": 1
+    "xp_rewards": {
+        "craft_level_0": 15,
+        "craft_level_1": 17,
+        "craft_level_2": 19,
+        "craft_level_3": 21,
+        "craft_level_4": 23,
+        "craft_level_5": 25,
+        "craft_level_6": 27
+    },
+    "max_level": 6,
+    "level_data": {
+        "1": {
+            "perks": [
+                {
+                    "name": "i18n(owls_apostolos:jobs.thatcher.thatcher_description.level_1_data.perk_000_name)",
+                    "id": "crafter_recipe_unlock_1",
+                    "icon": "file(../common/images/standard_catalog.png)",
+                    "description": "i18n(owls_apostolos:jobs.thatcher.thatcher_description.level_1_data.perk_000_description)",
+                    "level": 1
+            }
+         ]
+        },
+        "2": {},
+        "3": {},
+        "4": {},
+        "5": {},
+        "6": {}
+    }
 }

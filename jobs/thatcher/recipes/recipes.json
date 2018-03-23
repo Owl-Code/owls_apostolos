@@ -1,0 +1,13 @@
+{
+    "craftable_recipes": {
+        "workbenches": {
+            "ordinal": 1,
+            "name": "i18n(stonehearth:jobs.carpenter.recipes.workbench_name)",
+            "recipes": {
+                "thatcher_workbench": {
+                    "recipe": "file(thatcher_workbench_recipe.json)"
+                }
+            }
+        }
+    }
+}

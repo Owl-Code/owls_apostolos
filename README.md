@@ -19,7 +19,22 @@ A list of things that Owl-Code is thinking about
     
      x  1. Tribal people?  Yes
      x      1a.  Add new job index for kingdom 
-                - Add new "builder" class(Thatcher) for kingdom
+                
+                - new class template for kingdom
+                    - description
+                    - class
+                    - images
+                        - icon.png
+                        - talisman_name.png
+                        - job_menu_icon.png
+                    - abilites
+                    - outfit
+                        - hat(optional)
+                    - talisman
+                    - workbench(crafter)
+                    - less(crafter)
+                    - recipes(crafter)
+                    
                 - Fledling(worker)
                     - Fire Starter -------------- (cook)                    
                     - Hunter -------------------- (trapper)

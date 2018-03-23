@@ -24,7 +24,29 @@
                "stonehearth:male_3"
             ],
                 "given_names": [
-               "John"
+                    "Sleeping",
+                    "Running",
+                    "Jumping",
+                    "Walking",
+                    "Sitting",
+                    "",
+                    "Working",
+                    "Happy",
+                    "Raging",
+                    "Black",
+                    "White",
+                    "Red",
+                    "Yellow",
+                    "Green",
+                    "Blue",
+                    "Purple",
+                    "Orange",
+                    "",
+                    "Flying",
+                    "Swimming",
+                    "Falling",
+                    "Dead"
+
             ]
             },
             "female": {
@@ -35,29 +57,74 @@
                "stonehearth:female_3"
             ],
                 "given_names": [
-               "Jane"
+                    "Sleeping",
+                    "Running",
+                    "Jumping",
+                    "Walking",
+                    "Sitting",
+                    "",
+                    "Working",
+                    "Happy",
+                    "Raging",
+                    "Black",
+                    "White",
+                    "Red",
+                    "Yellow",
+                    "Green",
+                    "Blue",
+                    "Purple",
+                    "Orange",
+                    "Flying",
+                    "Swimming",
+                    "Falling",
+                    "Dead",
+
             ]
             },
             "surnames": [
-            "Doe"
+                "Feet",
+                "Wolf",
+                "Tiger",
+                "Frog",
+                "Spider",
+                "Chief",
+                "Owl",
+                "Hands",
+                "Sun",
+                "Moon",
+                "Tree",
+                "Rabbit",
+                "Fox",
+                "Ant",
+                "Wind",
+                "Thunder",
+                "Rain",
+                "Smoke",
+                "River",
+                "Mountain",
+                "Fire",
+                "Ice",
+                "Water",
+                "Earth",
+                "Air"
          ],
             "attribute_distribution": {
                 "allocated_points": {
                     "min": 4,
-                    "max": 8
+                    "max": 9
                 },
                 "point_limits": {
                     "mind": {
                         "min": 1,
-                        "max": 6
+                        "max": 7
                     },
                     "body": {
                         "min": 1,
-                        "max": 6
+                        "max": 7
                     },
                     "spirit": {
-                        "min": 2,
-                        "max": 6
+                        "min": 1,
+                        "max": 7
                     }
                 }
             }
@@ -90,9 +157,9 @@
       ]
     },
     "town_pieces": {
-        "optional_prefix": ["the"],
-        "town_name": ["town"],
-        "suffix": [""]
+        "optional_prefix": ["The"],
+        "town_name": ["Wandering"],
+        "suffix": ["Band"]
     },
     "task_groups": "stonehearth:data:player_task_groups"
 }

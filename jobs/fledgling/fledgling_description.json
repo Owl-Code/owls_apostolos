@@ -4,20 +4,21 @@
     "display_order": 1,
     "job_id": "worker",
     "alias": "stonehearth:jobs:worker",
+    "max_level": 3,
     "controller": "owls_apostolos:class:fledgling",
     "display_name": "i18n(stonehearth:jobs.worker.worker_description.display_name)",
     "description": "i18n(stonehearth:jobs.worker.worker_description.description)",
     "requirements": "i18n(stonehearth:jobs.worker.worker_description.requirements)",
     "default_stance": "passive",
-    "abilities": "/stonehearth/jobs/worker/worker_abilities",
+    "abilities": "file(fledgling_abilities)",
+    "promotion_activity_name": "promote_fledgling",
     "equipment": {
-        "torso": "/stonehearth/jobs/worker/worker_outfit",
+        "torso": "file(fledgling_outfit)",
         "mainhand": [
          "stonehearth:mining_pick",
          "stonehearth:worker_hammer"
       ]
     },
-    "max_level": 3,
     "roles": "fledgling_job",
     "task_groups": [
       "stonehearth:task_groups:common_tasks",
@@ -31,10 +32,17 @@
    ],
     "xp_rewards": {
         "mine": 1,
-        "fabricate_structure": 1
+        "gather": 2,
+        "place": 5
     },
     "level_data": {
         "1": {
+            "title": "i18n(stonehearth:jobs.worker.worker_description.level_0_data.title)"
+        },
+        "2": {
+            "title": "i18n(stonehearth:jobs.worker.worker_description.level_0_data.title)"
+        },
+        "3": {
             "title": "i18n(stonehearth:jobs.worker.worker_description.level_0_data.title)"
         }
     }

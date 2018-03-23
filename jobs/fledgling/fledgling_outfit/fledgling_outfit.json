@@ -1,0 +1,25 @@
+{
+    "type": "entity",
+    "mixins": "stonehearth:mixins:worker_outfit",
+    "components": {
+        "model_variants": {
+            "default": {
+                "layer": "clothing",
+                "models": [
+               "file(fledgling_outfit.qb)"
+            ]
+            },
+            "female": {
+                "layer": "clothing",
+                "models": [
+               "file(fledgling_outfit_female.qb)"
+            ]
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "icon": "file(fledgling_outfit.png)"
+        }
+    }
+}

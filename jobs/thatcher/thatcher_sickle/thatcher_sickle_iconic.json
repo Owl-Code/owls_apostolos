@@ -1,0 +1,23 @@
+{
+    "type": "entity",
+    "mixins": "stonehearth:mixins:item_properties",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+               "file(thatcher_sickle.qb)"
+            ]
+            }
+        }
+    },
+    "entity_data": {
+        "stonehearth:catalog": {
+            "display_name": "i18n(owls_apostolos:jobs.thatcher.thatcher_sickle.thatcher_sickle_iconic.display_name)",
+            "description": "i18n(owls_apostolos:jobs.thatcher.thatcher_sickle.thatcher_sickle_iconic.description)",
+            "icon": "file(thatcher_sickle.png)",
+            "is_item": true,
+            "category": "tools",
+            "material_tags": "tool"
+        }
+    }
+}
